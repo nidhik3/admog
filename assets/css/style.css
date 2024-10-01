@@ -1,0 +1,584 @@
+/* font family */
+.bai-jamjuree-extralight {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .bai-jamjuree-light {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .bai-jamjuree-regular {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .bai-jamjuree-medium {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .bai-jamjuree-semibold {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .bai-jamjuree-bold {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .bai-jamjuree-extralight-italic {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .bai-jamjuree-light-italic {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .bai-jamjuree-regular-italic {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .bai-jamjuree-medium-italic {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .bai-jamjuree-semibold-italic {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .bai-jamjuree-bold-italic {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+/* font family */
+
+/* html{
+  border: 2px solid red;
+} */
+
+
+ul {
+  padding-left: 0;
+}
+.row{
+  margin: 0;
+ 
+}
+.row>*{
+   padding-left:0 !important;
+   padding-right:0 !important;
+}
+
+.u{
+  text-transform: uppercase;
+}
+*{
+    font-family:"Bai Jamjuree", sans-serif;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.main-banner{
+  width: 100%;
+  height: 100vh;
+}
+
+.space-y{
+	padding: 100px 0px !important;
+}
+.space{
+	padding-top: 60px !important;
+	padding-bottom: 30px !important;
+}
+ 
+
+.htop{
+    text-transform: uppercase;
+    color: #1A406D;
+    font-weight: 600;
+}
+.htop {
+    font-size: 18px;
+}
+.h1logo{
+  
+    font-size: 35px;
+}
+.h2logo{
+  
+    font-size: 22px;
+}
+
+.wTop {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    font-weight: 500;
+    padding: 8px 20px 8px 20px;
+    transition: background-color 0.5s ease 0.5s, color 0.5s ease 0.5s, font-weight 0.5s ease 0.5s;
+    transition: border-color 0.5s ease;
+  }
+  .wTop:hover {
+    background-color: white;
+    color: black !important;
+    border: transparent;
+  }
+
+  .blue1:hover {
+    background-color: white;
+    color: black !important;
+    border: transparent;
+  }
+
+.blue-white{
+    background-color: transparent;
+    color: #1A406D;
+    text-align: center;
+    border: 1px solid #1A406D;
+    font-weight: 500;
+    padding: 8px 18px 8px 18px;
+    transition: background-color 0.5s ease 0.5s, color 0.5s ease 0.5s, font-weight 0.5s ease 0.5s;
+    transition: border-color 0.5s ease;
+    font-size: 15px;
+  }
+
+
+
+  .blue-white:hover {
+    background-color: #1A406D;
+    color: white !important;
+    border: transparent;
+  }
+
+
+
+  #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Ensure header is above the image */
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+#header.solid {
+  background-color: rgba(0, 0, 0, 0.5); /* Slight transparent background */
+ 
+}
+#header.solid .htop {
+  color: white;
+}
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    /* height: 80vh; */
+}
+
+.image-container img {
+  width: 100%;
+  /* height: 80vh; */
+  display: block;
+}
+
+
+.image-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2); 
+  z-index: 0;
+}
+
+
+/* .image-container img {
+    width: 100%;
+    
+} */
+
+.bannerH1, .bannerH2 , .bannerp, .bannerH3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white; 
+   
+   
+}
+
+.bannerH1 {
+  top: 35%;
+    font-size: 45px;
+    font-weight: 600;
+    width: 60%;
+}
+.bannerH3 {
+  top: 45%;
+    font-size: 45px;
+    font-weight: 600;
+    width: 60%;
+}
+
+.bannerH2 {
+    top: 66%; 
+}
+.bannerp {
+    top: 57%; 
+    font-size: 18px;
+    font-weight: 500;
+}
+.h2logo{
+padding-left: 14px;
+margin-top:-14px
+}
+/* header=========== */
+
+.tag1{
+    text-transform: uppercase;
+    color: black;
+    font-size: 26px;
+}
+.tag2{
+    text-transform: uppercase;
+    color: black;
+    font-size: 55px;
+}
+.tag-para{
+    color: white;
+}
+
+
+/*========== our services */
+
+.pictures {
+    position: relative;
+    overflow: hidden; /* Ensures overflow is hidden */
+    padding-bottom: 10px;
+}
+
+.pro {
+    display: block;
+    transition: transform 0.6s ease-in-out; /* Smooth zoom-in effect */
+}
+
+.pictures:hover .pro {
+    transform: scale(1.1); 
+}
+.matter {
+  position: absolute;
+  bottom: 7%;
+  left: 12px;
+  color: transparent;
+  padding: 10px;
+  transition: bottom 0.7s ease-in-out;
+  z-index: 2;
+}
+.pheading {
+  font-size: 30px !important;
+  /* padding: 10px; */
+  margin: 0;
+  z-index: 2;
+  font-weight: 600;
+}
+
+.s-para {
+  padding: 5px;
+}
+
+/* .pheading {
+    position: absolute;
+    bottom: 10px;
+    left: 22px;
+    color: transparent;
+    font-size: 30px !important;
+    padding: 10px;
+    transition: bottom 0.3s ease-in-out;
+    z-index: 2;
+    font-weight: 600;
+}
+
+.s-para {
+    position: absolute;
+    bottom: -100%; 
+    left: 24px;
+    color: transparent;
+    padding: 5px;
+    width: calc(100% - 20px);
+    transition: bottom 0.3s ease-in-out;
+    z-index: 1;
+} */
+
+.pictures:hover .pheading {
+    bottom: 180px; /* Move up when hovered */
+    color: white;
+}
+
+.pictures:hover .s-para {
+    bottom: 80px; /* Move up into view */
+    color: white;
+}
+.image-container2 {
+    overflow: hidden; /* Ensures overflow is hidden */
+    display: flex;
+    justify-content: center;
+}
+
+  /* our services======= */
+
+  /* ====== join us */
+
+  .p-para{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 30px 0 15px 0;
+  }
+  .p-paraH{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 0 15px 0;
+  }
+
+
+  .banner-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    width: 60%;
+
+}
+
+.j-bannerH1 {
+    margin: 0 0 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.j1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 600;
+}
+/* join us ========== */
+
+/* footer */
+li {
+    list-style: none; 
+    margin: 0;        
+    padding: 0;       
+}
+#footer{
+    font-size: 18px;
+    font-weight: 500; 
+}
+
+.custom-list li a {
+    color: black;
+   
+}
+
+.custom-list li i {
+    color: #1A406D; 
+}
+.sub-heading{
+    font-size: 20px;
+    font-weight: 600; 
+    padding-bottom:7px ;
+}
+.qlinks{
+    padding-top: 7px;
+}
+
+.social{
+  display: flex;justify-content: space-evenly; flex-direction: column;
+}
+.ICON{
+  height: 6vh; width: 3vw; border-radius: 4px; background-color: #1A406D !important; color: white !important;
+}
+.social {
+  flex-direction: column;
+}
+
+
+
+  #subscribe{
+    border:  2px solid #1A406D;
+    padding: 10px;
+    height: 5vh;
+  }
+  .blue{
+    height: 5vh;
+    background-color: #1A406D;
+    color: white;
+    text-align: center;
+    border: 1px solid #1A406D;
+    font-weight: 500;
+    /* padding: 8px 18px 8px 18px; */
+    font-size: 15px;
+  }
+  .blue1{
+    height: 5vh;
+    background-color: #1A406D;
+    color: white;
+    text-align: center;
+    border: 1px solid #1A406D;
+    font-weight: 500;
+    padding: 8px 18px 8px 18px;
+    font-size: 15px;
+  }
+
+  .corporate{
+    font-size: 15px;
+    font-weight: 500;
+    color: #707070;
+  }
+
+  .blue-banner{
+   color:white !important;
+  }
+
+  .img-1 {
+    position: relative;
+    text-align: center;
+}
+
+.img-1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.p-text {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 25px; /* Adjust as needed */
+    padding: 5px; /* Optional: Add padding */
+    text-align: start;
+}
+
+
+.uHeading{
+  font-size: 32px;
+    font-weight: 600;
+}
+.form-control {
+  display: block;
+  width: 79%  !important;
+  height: 6vh !important;
+  background-color: #f5f5f5;
+
+}
+.form-controls {
+  display: block;
+  width: 79%  !important;
+  height: 10vh !important;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #f5f5f5;
+  border: 1px solid #ced4da;
+}
+.loc{
+  margin-bottom: 23px;
+}
+
+
+.soon{
+    width: 100%;
+}
+
+/* ====popop========== */
+.popup {
+  display: none; /* Hide popup by default */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.popup-content {
+  display: flex;
+}
+
+.popup-img img {
+  max-width: 100%;
+}
+
+.popup-text {
+  padding-left: 20px;
+}
+
+.popup.show {
+  display: block; /* Show popup when it has the "show" class */
+  border-radius: 20px;
+}
+
+.popup-overlay {
+  display: none; /* Hide overlay by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.popup-overlay.show {
+  display: block; /* Show overlay when it has the "show" class */
+}
+
+
+/* ====popop========== */
